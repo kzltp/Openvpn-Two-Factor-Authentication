@@ -36,3 +36,8 @@ script-security 2
 tmp-dir "/dev/shm"
 auth-user-pass-verify openvpn-ldap-auth.sh via-file
 ```
+## Usage
+
+When write password you should use below usage syntax
+
+$LDAPPASS$;$GOOGLEAUTHCODE$
