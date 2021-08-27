@@ -17,7 +17,7 @@ unzip main.zip
 Move all files to OpenVPN home directory.
 
 ```bash
-mv Openvpn-Two-Factor-Authentication-main/* /etc/oepnvpn
+mv Openvpn-Two-Factor-Authentication-main/* /etc/openvpn
 ```
 
 Update ldap information in ```openvpn-two-factor-auth.sh``` 
